@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4568" started-at="2020-04-28T16:02:39Z" finished-at="2020-04-28T16:02:43Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4568" started-at="2020-04-28T16:02:39Z" finished-at="2020-04-28T16:02:43Z">
+      <class name="project.TC_CAREFIR_001">
+        <test-method status="PASS" signature="setup()[pri:0, instance:project.TC_CAREFIR_001@1b68b9a4]" name="setup" is-config="true" duration-ms="4897" started-at="2020-04-28T16:02:34Z" finished-at="2020-04-28T16:02:39Z">
+        </test-method>
+        <test-method status="PASS" signature="varifytitle()[pri:1, instance:project.TC_CAREFIR_001@1b68b9a4]" name="varifytitle" duration-ms="10" started-at="2020-04-28T16:02:39Z" finished-at="2020-04-28T16:02:39Z">
+        </test-method>
+        <test-method status="PASS" signature="closechildwindow()[pri:2, instance:project.TC_CAREFIR_001@1b68b9a4]" name="closechildwindow" duration-ms="2338" started-at="2020-04-28T16:02:39Z" finished-at="2020-04-28T16:02:41Z">
+        </test-method>
+        <test-method status="PASS" signature="varifylink()[pri:3, instance:project.TC_CAREFIR_001@1b68b9a4]" name="varifylink" duration-ms="336" started-at="2020-04-28T16:02:41Z" finished-at="2020-04-28T16:02:42Z">
+        </test-method>
+        <test-method status="PASS" signature="clickonfamilink()[pri:4, instance:project.TC_CAREFIR_001@1b68b9a4]" name="clickonfamilink" duration-ms="341" started-at="2020-04-28T16:02:42Z" finished-at="2020-04-28T16:02:42Z">
+        </test-method>
+        <test-method status="PASS" signature="varifyquotebtn()[pri:5, instance:project.TC_CAREFIR_001@1b68b9a4]" name="varifyquotebtn" duration-ms="1528" started-at="2020-04-28T16:02:42Z" finished-at="2020-04-28T16:02:43Z">
+        </test-method>
+        <test-method status="PASS" signature="theardown()[pri:0, instance:project.TC_CAREFIR_001@1b68b9a4]" name="theardown" is-config="true" duration-ms="86" started-at="2020-04-28T16:02:43Z" finished-at="2020-04-28T16:02:44Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

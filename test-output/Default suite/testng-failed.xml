@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="project.TC_CAREFIR_001">
+        <methods>
+          <include name="closechildwindow"/>
+          <include name="setup"/>
+          <include name="varifyquotebtn"/>
+          <include name="clickonfamilink"/>
+          <include name="varifylink"/>
+          <include name="theardown"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
