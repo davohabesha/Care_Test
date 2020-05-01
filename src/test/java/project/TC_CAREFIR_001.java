@@ -28,7 +28,7 @@ public class TC_CAREFIR_001 extends BaseClass {
 }
 	
 	@Test(priority=2)	
-	public void closechildwindow() {
+	public void closechildwindoww() {
 		String currentwindow= driver.getWindowHandle();
 		System.out.println(currentwindow);
 		Set<String> windows= driver.getWindowHandles();
