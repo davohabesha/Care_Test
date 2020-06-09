@@ -14,6 +14,8 @@ import org.testng.annotations.Test;
 public class BaseClass {
 	public static WebDriver driver;
 	public static String url= "https://individual.carefirst.com/individuals-families/home.page#";
+	public static String url2= "http://carefirst.inshealth.com/?allid=CAR27748";
+	
 	
 	
 	
@@ -32,11 +34,10 @@ public void setup ( ) {
 }
 
 
- @AfterSuite
- 
- public void theardown() { 
-	 driver.quit(); 
-  }
- 
+/*
+ * @AfterSuite
+ * 
+ * public void theardown() { driver.quit(); }
+ */
  
 }
